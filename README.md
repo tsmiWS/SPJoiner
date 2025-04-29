@@ -46,7 +46,7 @@ pip install -r requirements.txt
 ```bash
 python spjoiner.py -c carrier.exe -p payload.exe -o output_name
 ```
-# 📋 Parameters
+### 📋 Parameters
 
 | Parameter         | Description                                  |
 |-------------------|----------------------------------------------|
@@ -61,9 +61,9 @@ This tool is for educational purposes only. The author is not responsible for an
 ## 📄 License
 MIT License
 
-Made with ❤️ by tsmi-WS
 
-## Contribute
+## ❤️ Help Us
 BTC WALLET: 
+SOLANA WALLET: 
 
 
