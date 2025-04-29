@@ -21,7 +21,6 @@ A smart Python-based joiner that combines two executable files (.exe) into a sin
 - 🚀 Executes both programs independently
 - 🕵️‍♂️ Discreet payload execution (no visible windows)
 - 🧹 Automatic cleanup of temporary files
-- 📊 Animated progress spinner during compilation
 - 🎨 Colorful terminal output
 
 ## 📦 Prerequisites
@@ -47,12 +46,14 @@ pip install -r requirements.txt
 ```bash
 python spjoiner.py -c carrier.exe -p payload.exe -o output_name
 ```
-Parameters:
+# 📋 Parameters
 
-Parameter	    Description
--c/--carrier	Path to the visible "carrier" executable
--p/--payload	Path to the background "payload" executable
--o/--output	  Output filename (without .exe extension)
+| Parameter         | Description                                  |
+|-------------------|----------------------------------------------|
+| `-c`, `--carrier` | Path to the visible "carrier" executable     |
+| `-p`, `--payload` | Path to the background "payload" executable  |
+| `-o`, `--output`  | Output filename (without `.exe` extension)   |
+
 
 ## ⚠️ Legal Warning
 This tool is for educational purposes only. The author is not responsible for any misuse. Use at your own risk and only on systems you have permission to access.
